@@ -236,17 +236,38 @@ section {
 
 /* Contact us page */
 
-.contact-us {
-  overflow: auto;
+.contact {
   text-align: center;
+  background-color: #024e76;
 }
 
-.contact-us div iframe{
-float: left;
-border: #024e76 5px solid;
+.contact div iframe {
+  width: 400px;
+  height: 400px;
 }
 
-/* .contact-us div {
-text-align: left;
-margin: 0 auto ;
-} */
+.contact h2,
+.contact h3,
+.contact  a {
+  color: #fce138;
+}
+
+.contact h3 {
+  font-size: 32px;
+}
+
+.contact-info p, .contact-info address{
+  margin: 20px 0;
+  line-height: 1.5;
+  font-size: 20px;
+  font-style: normal;
+}
+
+.contact-info div{
+  width: 410px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+  margin: 30px 0 0 60px;
+  color: aliceblue;
+}
