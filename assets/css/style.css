@@ -73,11 +73,12 @@ section {
 
 #hero {
   background-image: url(../picture/hero-bg.jpg);
-  height: 600px;
+  height: 500px;
   background-size: cover;
   background-position: center;
   position: relative;
 }
+
 /* Hero Style ends */
 
 .hero-form {
@@ -248,7 +249,7 @@ section {
 
 .contact h2,
 .contact h3,
-.contact  a {
+.contact a {
   color: #fce138;
 }
 
@@ -256,18 +257,64 @@ section {
   font-size: 32px;
 }
 
-.contact-info p, .contact-info address{
+.contact-info p,
+.contact-info address {
   margin: 20px 0;
   line-height: 1.5;
   font-size: 20px;
   font-style: normal;
 }
 
-.contact-info div{
+.contact-info div {
   width: 410px;
   display: inline-block;
   vertical-align: top;
   text-align: left;
   margin: 30px 0 0 60px;
   color: aliceblue;
+}
+
+/* privacy page styling start */
+
+.hero-second {
+  background-image: url(../picture/hero-bg.jpg);
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-position: bottom;
+  height: auto;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.hero-second h2 {
+  color: #fce138;
+  display: inline-block;
+  border-bottom: #fce138 4px solid;
+  padding: 0 80px 15px 80px;
+  font-weight: normal;
+  font-size: 42px;
+  font-style: italic;
+}
+
+.privacy {
+  width: 80%;
+  margin: 0 auto;
+  color: #024e76;
+}
+
+.privacy p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 20px 0;
+}
+
+.privacy ul {
+  margin: 15px 20px;
+}
+
+.privacy li {
+  color: #39a6b2;
+  margin: 10px 0;
 }
