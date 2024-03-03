@@ -88,8 +88,8 @@ section {
   width: 500px;
   color: #024e76;
   position: absolute;
-  bottom: 120px;
-  right: 140px;
+  bottom: 20px;
+  right: 100px;
 }
 
 .hero-form h3 {
@@ -317,4 +317,23 @@ section {
 .privacy li {
   color: #39a6b2;
   margin: 10px 0;
+}
+
+.hero-cta{
+  width: 45%;
+  text-align: right;
+}
+.hero-cta h2{
+  color: #fce138;
+font-size: 50px;
+font-style: italic;
+
+}
+.hero-cta p{
+  color: aliceblue;
+}
+
+#hero {
+display: flex;
+
 }
