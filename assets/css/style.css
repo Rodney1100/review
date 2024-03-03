@@ -361,21 +361,15 @@ section {
 /* media queries */
 @media screen and (max-width: 980px) {
   /* this applies for screens that are 980px wide */
-  header h1 a {
-    color: tomato;
-  }
+
 }
 
 @media screen and (max-width: 768px) {
   /* this applies for screens that are 768px wide */
-  header h1 {
-    font-size: 80px;
-  }
+
 }
 
 @media screen and (max-width: 575px) {
   /*this is for screens that are 575px or less  */
-  header h1{
-    font-size:  100px;
-  }
+
 }
